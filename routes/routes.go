@@ -8,4 +8,5 @@ import (
 
 func SetupRoutes(router *gin.Engine) {
 	router.GET("/users", controllers.GetUsers)
+	router.GET("/hello", controllers.Hello)
 }
